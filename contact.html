@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
-    <title>Website sample</title>
+    <title>About us</title>
   </head>
   <body>
-	  <!-- Navbar -->
     <header>
       <nav class="nav nav-top-bottom">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#">Home Page</a></li>
+          <li class="nav__item"><a href="index.html">Home Page</a></li>
           <li class="nav__item">
             <a href="about.html">About us</a>
           </li>
@@ -21,38 +20,39 @@
         </ul>
       </nav>
     </header>
-    <div class="full-size-img">
-      <div class="container">
-        <div class="hero">
-          <h1>Arts Gallery</h1>
-          <p class="hero-text">
-            Art is everywhere, influencing us on a daily basis, whether we
-            realize it or not. With the art that we are surrounded by, whether
-            it’s a painting, music or even videos can have a huge impact on our
-            mood and emotions.
-          </p>
-          <button class="button btn-primary">
-            <a href="about.html">Read more</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-
-
-	
-	
-
-
-
-
- 
-  </body>
-
-     <!-- Footer -->
-
-  <footer class="site-footer">
     <div class="container">
+      <h1>Contact Us</h1> 
+    </div>
+    
+
+    <!-- Contact Form part -->
+	<div class="container container-top-bottom" >
+		<h3>Contact Form</h3>
+		<form action="#" name="contact_form">
+			<label for="first_name">First Name</label>
+			<input name="first_name" type="text" required placeholder="John"/>
+			<br>
+			<label for="last_name">Last Name</label>
+			<input name="last_name" type="text" required placeholder="Doe"/>
+			<br>
+			<label for="email">Email</label>
+			<input name="email" type="email" required placeholder="you@domain.com"/>
+			<br>
+			<label for="message">Message</label><br>
+			<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+			<div class="center">
+				<input type="submit" value="Submit">
+			</div>
+		</form>	
+	</div>
+    
+  <div class="emp"> </div>
+
+  
+
+  </body>
+  <footer class="site-footer">
+    <div class="container top-margin">
           <h6>Quick Links</h6>
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
@@ -72,12 +72,10 @@
     </div>
     <div class="container">
       <div class="row">
-        <div>
           <p class="copyright-text">
             Copyright &copy; 2021 All Rights Reserved by
-            <a href="#">AG Art Gallery</a>.
+            <a href="id.html">AG Art Gallery</a>.
           </p>
-        </div>
       </div>
     </div>
   </footer>

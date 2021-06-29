@@ -1,10 +1,22 @@
+@font-face {
+    font-family: firstFont;
+    src: url('../assets/fonts/Poppins-Regular.ttf');
+  }
+  @font-face {
+      font-family: secondFont;
+      src : url('../assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf')
+  }
 * {
     box-sizing: border-box;
+}
+body {
+    font-family: firstFont;
+    margin:0;
 }
 
 /* Navigation Bar */
 .nav {
-    background: #000;
+    background: #2F2FA2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -15,16 +27,19 @@
   .nav__list {
     width: 100%;
     margin: 0;
+    list-style-type: none;
   }
   
   .nav__item {
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
     border-bottom: 1px solid #222;
+    
   }
   
   .nav__item > a {
     color: #d2d0db;
     transition: color 0.3s;
+    text-decoration: none;
   }
   
   .nav__item > a:hover {
@@ -65,6 +80,8 @@
     }
   }
 
+/* Container element  */
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -87,3 +104,7 @@
     }
   }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,82 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/index.css" />
-    <title>About us</title>
-  </head>
-  <body>
-    <header>
-      <nav class="nav nav-top-bottom">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="index.html">Home Page</a></li>
-          <li class="nav__item">
-            <a href="about.html">About us</a>
-          </li>
-          <!-- <li class="nav__item"><a href="#">Gallery</a></li> -->
-          <li class="nav__item"><a href="contact.html">Contact us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="container">
-      <h1>Contact Us</h1> 
-    </div>
-    
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/index.css" />
+		<title>About us</title>
+	</head>
+	<body>
+		<header>
+			<nav class="nav nav-top-bottom">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="index.html">Home Page</a>
+					</li>
+					<li class="nav__item">
+						<a href="about.html">About us</a>
+					</li>
+					<!-- <li class="nav__item"><a href="#">Gallery</a></li> -->
+					<li class="nav__item">
+						<a href="contact.html">Contact us</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="container">
+			<h1>Contact Us</h1>
+		</div>
 
-    <!-- Contact Form part -->
-	<div class="container container-top-bottom" >
-		<h3>Contact Form</h3>
-		<form action="#" name="contact_form">
-			<label for="first_name">First Name</label>
-			<input name="first_name" type="text" required placeholder="John"/>
-			<br>
-			<label for="last_name">Last Name</label>
-			<input name="last_name" type="text" required placeholder="Doe"/>
-			<br>
-			<label for="email">Email</label>
-			<input name="email" type="email" required placeholder="you@domain.com"/>
-			<br>
-			<label for="message">Message</label><br>
-			<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
-			<div class="center">
-				<input type="submit" value="Submit">
+		<!-- Contact Form part -->
+		<div class="container container-top-bottom">
+			<h3>Contact Form</h3>
+			<form action="#" name="contact_form">
+				<label for="first_name">First Name</label>
+				<input
+					name="first_name"
+					type="text"
+					required
+					placeholder="John"
+				/>
+				<br />
+				<label for="last_name">Last Name</label>
+				<input
+					name="last_name"
+					type="text"
+					required
+					placeholder="Doe"
+				/>
+				<br />
+				<label for="email">Email</label>
+				<input
+					name="email"
+					type="email"
+					required
+					placeholder="you@domain.com"
+				/>
+				<br />
+				<label for="message">Message</label><br />
+				<textarea
+					name="message"
+					cols="30"
+					rows="10"
+					placeholder="Enter your message here ..."
+					required
+				>
+				</textarea>
+				<div class="center">
+					<input type="submit" value="Submit" />
+				</div>
+			</form>
+		</div>
+
+		<div class="emp"></div>
+	</body>
+	<footer class="site-footer">
+		<div class="container top-margin">
+			<h6>Quick Links</h6>
+			<ul class="footer-links">
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li>
+					<a href="id.html">Visit us</a>
+				</li>
+				<li>
+					<a href="id.html">Privacy Policy</a>
+				</li>
+				<li><a href="id.html">Sitemap</a></li>
+			</ul>
+		</div>
+		<hr />
+
+		<div class="container">
+			<div class="row">
+				<p class="copyright-text">
+					Copyright &copy; 2021 All Rights Reserved by
+					<a href="id.html">AG Art Gallery</a>.
+				</p>
 			</div>
-		</form>	
-	</div>
-    
-  <div class="emp"> </div>
-
-  
-
-  </body>
-  <footer class="site-footer">
-    <div class="container top-margin">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="id.html">Contact Us</a></li>
-            <li>
-              <a href="id.html"
-                >Contribute</a
-              >
-            </li>
-            <li>
-              <a href="id.html">Privacy Policy</a>
-            </li>
-            <li><a href="id.html">Sitemap</a></li>
-          </ul>
-        </div>
-      <hr />
-    </div>
-    <div class="container">
-      <div class="row">
-          <p class="copyright-text">
-            Copyright &copy; 2021 All Rights Reserved by
-            <a href="id.html">AG Art Gallery</a>.
-          </p>
-      </div>
-    </div>
-  </footer>
+		</div>
+	</footer>
 </html>

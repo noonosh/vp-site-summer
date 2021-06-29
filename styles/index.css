@@ -109,7 +109,16 @@ html {
 	}
 }
 
+/* Fixes the sizes of image */
 .img-fluid {
 	max-width: 100%;
 	height: auto;
+}
+
+.full-size-img {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }

@@ -24,7 +24,7 @@ html {
 .nav {
 	background: #2f2fa2;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	padding: 0 1rem;
 	align-items: center;
@@ -115,10 +115,12 @@ html {
 	height: auto;
 }
 
+/* Background image under a navbar */
 .full-size-img {
-    background-image: url("");
+    background: linear-gradient(0deg, rgba(0,0,0, 0.7), rgba(0,0,0, 0.8)), url("../assets/images/bg-img.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+
 }
